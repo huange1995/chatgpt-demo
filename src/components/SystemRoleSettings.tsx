@@ -20,7 +20,7 @@ export default (props: Props) => {
   }
 
   return (
-    <div class="my-4">
+    <div class="my-4" display="none">
       <Show when={!props.systemRoleEditing()}>
         <Show when={props.currentSystemRoleSettings()}>
           <div>
